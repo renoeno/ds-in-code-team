@@ -1,7 +1,15 @@
 {
   "name": "design-system-team",
-  "version": "0.1.0",
-  "private": true,
+  "main": "dist/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renoeno/ds-in-code-team"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "dependencies": {
     "@renoeno/dsc-design-system-meiuca": "^0.1.1",
     "@testing-library/jest-dom": "^5.16.4",
