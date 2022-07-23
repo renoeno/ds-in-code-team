@@ -1,0 +1,24 @@
+.card-content {
+  &::part(card) {
+    padding: var(--spacing-inset-size-md);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  dsc-tag {
+    margin-bottom: auto;
+  }
+
+  dsc-typography[component="heading"] {
+    margin-bottom: var(--spacing-size-xxxs);
+  }
+
+  dsc-typograph[component="paragraph"] {
+    &::part(typography) {
+      line-height: var(--line-height-lg);
+    }
+  }
+}
