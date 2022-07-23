@@ -12,7 +12,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@renoeno/dsc-design-system-meiuca": "^0.1.1",
+    "@renoeno/dsc-design-system-meiuca": "^0.1.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
